@@ -22,7 +22,7 @@ body {
 
 @media (max-width:768px) {
 
-  .logo { 
+  .logo {
     text-align: center;
   }
 
@@ -32,6 +32,10 @@ body {
   display: block;
   width: 500px;
   margin: 0 auto 0;
+}
+
+#add-item {
+  margin: 16px 0;
 }
 
 .input,
@@ -165,11 +169,11 @@ input, button {
   display: none;
 }
   
-.edit .input {
+.list-item-edit .input {
   display: inline-block;
   width: 224px;
 }
   
-.edit .label {
+.list-item-edit .label {
   display: none;
 }
