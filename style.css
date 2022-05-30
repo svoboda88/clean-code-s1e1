@@ -12,7 +12,7 @@ body {
   text-align: right;
 }
 
-.logo img {
+.logo-img {
   width: 100%;
 }
 
@@ -134,11 +134,11 @@ input, button {
   vertical-align: middle;
 }
 
-.list-item > input[type="checkbox"] {
+.list-item > .input-checkbox {
   margin: 0 10px;
 }
 
-.list-item > label {
+.list-item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -149,12 +149,12 @@ input, button {
   width: 226px;
 }
 
-.button-delete img {
+.remove-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.button-delete img:hover {
+.remove-icon:hover {
   transform: rotateZ(0);
 }
   
