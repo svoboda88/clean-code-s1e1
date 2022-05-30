@@ -50,7 +50,8 @@ ul {
   padding: 0;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
@@ -70,12 +71,15 @@ input, button {
   cursor: pointer;
 }
 
-.button-add:hover, .button-edit:hover, .button-delete:hover {
+.button-add:hover,
+.button-edit:hover,
+.button-delete:hover {
   color: #3a3a3a;
 }
 
   /* Heading */
-.header, .add-item-label {
+.header,
+.add-item-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
